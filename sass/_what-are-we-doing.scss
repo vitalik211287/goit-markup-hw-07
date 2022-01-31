@@ -1,0 +1,41 @@
+.doing-list-text {
+  display: block;
+  width: 205px;
+  height: 16px;
+  box-sizing: content-box;
+  background-color: rgba(47, 48, 58, 0.8);
+  padding: 27px 82px 27px 83px;
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.doing-list {
+  display: flex;
+  position: relative;
+}
+
+.what-are-we-doing {
+  background-color: var(--background-color);
+}
+
+.what-are-we-doing-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--h-color);
+  margin-bottom: 50px;
+}
+
+.what-are-we-doing-list {
+  display: flex;
+}
+.doing-list:not(:last-child) {
+  margin-right: 30px;
+}

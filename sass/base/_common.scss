@@ -1,0 +1,46 @@
+button {
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #e5e5e5;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--paragrapf-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
