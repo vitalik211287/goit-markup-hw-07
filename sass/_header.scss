@@ -12,10 +12,10 @@
   margin-right: 5px;
   color: var(--paragrapf-color);
 }
-// .header-nav__item {
-//   display: block;
-//   box-sizing: border-box;
-// }
+.header-nav__item {
+  display: block;
+  box-sizing: border-box;
+}
 
 .header {
   background: var(--background-color);
@@ -106,5 +106,5 @@
 
 .header-address:hover,
 .header-address:focus {
-color: var(--accent-color);
+  color: var(--accent-color);
 }
